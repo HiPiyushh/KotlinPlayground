@@ -3,11 +3,11 @@ fun main() {
     val input = Scanner(System.`in`)
     val t = input.nextInt()
     repeat(t) {
-        val a = input.nextInt()
-        val b = input.nextInt()
-        val c = input.nextInt()
+        val x = input.nextInt()
+        val y = input.nextInt()
+        val z = input.nextInt()
 
-        if (a > b+c || b > a+c || c > a+b) println("Yes")
-        else println ("No")
+        if (y <= 10*x) println(y*z)
+        else println(10*x*z)
 }
 }
