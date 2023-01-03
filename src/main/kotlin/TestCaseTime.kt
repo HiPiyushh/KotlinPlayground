@@ -3,10 +3,10 @@ fun main() {
     val input = Scanner(System.`in`)
     val t = input.nextInt()
     repeat(t) {
-        val a = input.nextInt()
-        val b = input.nextInt()
         val c = input.nextInt()
+        val x = input.nextInt()
+        val y = input.nextInt()
 
-         println((c-b)/a)
+         println((c-x)*y)
 }
 }
