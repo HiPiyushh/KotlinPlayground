@@ -7,11 +7,11 @@ fun main() {
         val a = input.nextInt()
         val b = input.nextInt()
         val c = input.nextInt()
-        val d = input.nextInt()
 
-        (if(a+b+c+d == 0)
-            println("IN")
+
+        if(((a+b)/2<35) || ((c+b)/2<35) || ((a+c)/2<35))
+            println("Fail")
         else
-            println("OUT"))
+            println("Pass")
     }
 }
