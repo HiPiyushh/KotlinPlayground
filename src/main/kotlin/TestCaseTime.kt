@@ -7,10 +7,6 @@ fun main() {
         val x = input.nextInt()
         val y = input.nextInt()
 
-
-        val r = ((y).toFloat() / x) * 100
-
-
-        println(if (r >= 50) "YES" else "NO")
+        println("${4*x + y}")
     }
 }
