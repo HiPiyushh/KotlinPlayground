@@ -10,6 +10,5 @@ fun main() {
     println(2.sum(a,b))
 
     // Change1
-    // Change2
 
 }
