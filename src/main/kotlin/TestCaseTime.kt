@@ -1,14 +1,15 @@
-fun main() {
-    println("what is the current hour? (0-23)")
-    val input = readLine()?:"0"
-    var hour = input.toInt()
-    if (hour > 23) hour = 23
-    val timeofDay = when(hour) {
-        in 6..11 -> "morning"
-        in 12..14 -> "noon"
-        in 15..17 -> "afternoon"
-        in 18..21 -> "evening"
-        else -> "night"
+fun main(args:Array<String>) {
+    for (i in  1..3) {
+        askDetails()
     }
-    println("At $hour:00 $timeofDay")
 }
+
+fun askDetails() {
+    println("Please enter your name")
+    val name = readLine()?:""
+    println("Please enter you birth year")
+    val input = readLine()?:""
+    val year = input.toInt()
+    println("$name is $(2019-year-1) or $(2019-year) years old")
+}
+
