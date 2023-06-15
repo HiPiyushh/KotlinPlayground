@@ -1,14 +1,10 @@
 import java.util.Scanner
 fun main() {
-    val input  = Scanner(System.`in`)
-    val t = input.nextInt()
+    val input = Scanner(System.`in`)
+    val x = input.nextInt()
+    val y = input.nextInt()
 
-    repeat(t) {
-        val a = input.nextInt()
-        val b = input.nextInt()
 
-        if (a+b+(a*b)==111) {println("Yes") } else {
-            println("No") }
-        }
-
-    }
+    val numberOfPacket = (x * y)
+    println(numberOfPacket)
+}
