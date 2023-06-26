@@ -3,9 +3,11 @@ fun main() {
     val input = Scanner(System.`in`)
     val t = input.nextInt()
     repeat(t) {
+        val w = input.nextInt()
         val x = input.nextInt()
+        val y = input.nextInt()
+        val z = input.nextInt()
 
-        if (15>=x) {println("Yes")}
-        else {println("No")}
-    }
+     println("${w+ ((x-y)* z)}")
+}
 }
