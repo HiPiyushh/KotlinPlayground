@@ -4,8 +4,7 @@ fun main() {
     val t = input.nextInt()
     repeat(t) {
         val a = input.nextInt()
-        val b = input.nextInt()
-        val c = a*b
-        println(c/100)
+
+        println(100-a)
 }
 }
