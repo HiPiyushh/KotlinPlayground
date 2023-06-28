@@ -4,7 +4,12 @@ fun main() {
     val t = input.nextInt()
     repeat(t) {
         val a = input.nextInt()
-
-        println(100-a)
+        val b = input.nextInt()
+        val c = a*b
+        val d = c/4
+        if(c%4!=0)
+            println(d+1)
+        else
+            println(d)
 }
 }
