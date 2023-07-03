@@ -55,20 +55,20 @@
 //    }
 //}
 
-import java.util.Scanner
-
-fun main() {
-    var input = Scanner(System.`in`)
-    var t = input.nextInt()
-    repeat(t) {
-        var number = input.nextInt()
-        var last = number % 10
-        var first = 0
-        while (number != 0) {
-            last = number % 10
-            number /= 10
-            last += first
-        }
-        println(last)
-    }
-}
+//import java.util.Scanner
+//
+//fun main() {
+//    var input = Scanner(System.`in`)
+//    var t = input.nextInt()
+//    repeat(t) {
+//        var number = input.nextInt()
+//        var last = number % 10
+//        var first = 0
+//        while (number != 0) {
+//            last = number % 10
+//            number /= 10
+//            last += first
+//        }
+//        println(last)
+//    }
+//}
